@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人網站 | 首頁</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <div class="container">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">首頁</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">關於我</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio.html">作品集</a></li>
+                    <li class="nav-item"><a class="nav-link" href="skills.html">技能介紹</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">聯絡我</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section text-white d-flex align-items-center">
+        <div class="container text-center text-md-start">
+            <div class="row align-items-center">
+                <div class="col-md-7 hero-text-box">
+                    <h1 class="display-3 fw-bold mb-3">沉默寡言孤僻男<br>在騎車中突破極限</h1>
+                    <p class="lead mb-4">我是蕭家和，目前專注於資訊管理領域。喜歡學新技術和完成有挑戰性的事情，在充滿刺激與挑戰的過程中不斷淬鍊自己，至少不會無聊沒有目標的過每一天</p>
+                    <a href="about.html" class="btn btn-outline-warning btn-lg px-4 me-2 custom-btn">探索更多</a>
+                    <a href="contact.html" class="btn btn-light btn-lg px-4 custom-btn">與我聯絡</a>
+                </div>
+                <div class="col-md-5 text-center mt-5 mt-md-0">
+                    <div id="heroCarousel" class="carousel slide carousel-fade shadow-lg rounded-4 overflow-hidden" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&auto=format&fit=crop&q=80" class="d-block w-100" alt="網頁開發場景">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://img.supermoto8.com/images/article/bfc7cdb6b5d148087baaaebb707374622.jpg" class="d-block w-100" alt="重機與速度感">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-5 bg-light">
+        <div class="container py-4">
+            <div class="row align-items-center g-5">
+                <div class="col-md-5">
+                    <div class="img-hover-box rounded-4 overflow-hidden shadow">
+                        <img src="images/avatar.jpg" class="img-fluid w-100" alt="個人照片">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <h2 class="fw-bold mb-4 position-relative section-title">關於我</h2>
+                    <p class="text-secondary mb-4 fs-5 leading-relaxed">
+                        目前正就讀資訊管理專業  對我而言，程式設計與資料庫管理不只是課程，更是將邏輯思維轉化為現實工具的精采過程。我喜歡那些帶有挑戰性、能帶來速度與刺激感的事物。像是騎車就是我尋找刺激感來源的其中之一
+                    </p>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center bg-white p-3 rounded-3 shadow-sm border-start border-warning border-3">
+                                <i class="bi bi-code-slash text-warning fs-3 me-3"></i>
+                                <div>
+                                    <h6 class="mb-0 fw-bold">資訊管理</h6>
+                                    <small class="text-muted">網頁設計、運算思維</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center bg-white p-3 rounded-3 shadow-sm border-start border-dark border-3">
+                                <i class="bi bi-speedometer2 text-dark fs-3 me-3"></i>
+                                <div>
+                                    <h6 class="mb-0 fw-bold">挑戰精神</h6>
+                                    <small class="text-muted">追求速度與極限突破</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white-50 py-4 text-center border-top border-secondary border-opacity-20">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 Hsiao's Portfolio. 期末專案作品. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
